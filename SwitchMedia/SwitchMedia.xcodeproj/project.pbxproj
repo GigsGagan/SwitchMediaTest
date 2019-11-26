@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7935DD875E77722D02F3B5 /* Pods_SwitchMediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E22014FFBF8D0350DADE2E /* Pods_SwitchMediaTests.framework */; };
+		8F31BCD28505A86D32E049EA /* Pods_SwitchMediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3743B405344C6F686BA09E /* Pods_SwitchMediaUITests.framework */; };
+		B8F2EEFBD3BD7EA93CC7AD00 /* Pods_SwitchMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58405EE2CB183BBEB9231543 /* Pods_SwitchMedia.framework */; };
+		CE0482E91EF510AE005A25DA /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0482E81EF510AE005A25DA /* CategoryManager.swift */; };
+		CE0482EC1EF55F9F005A25DA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0482EB1EF55F9F005A25DA /* DetailsViewController.swift */; };
+		CE751FBD1EF6597F0080497C /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751FBC1EF6597F0080497C /* ThemeManager.swift */; };
+		CE751FBF1EF659BC0080497C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751FBE1EF659BC0080497C /* Theme.swift */; };
+		CE751FC11EF65A2A0080497C /* ThemeDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751FC01EF65A2A0080497C /* ThemeDefault.swift */; };
+		CE751FC31EF65A690080497C /* IpadTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751FC21EF65A690080497C /* IpadTheme.swift */; };
+		CE751FC51EF65AAD0080497C /* IphoneTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE751FC41EF65AAD0080497C /* IphoneTheme.swift */; };
+		CEDE10DE1EF4026F00E07829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE10DD1EF4026F00E07829 /* AppDelegate.swift */; };
+		CEDE10E31EF4026F00E07829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE10E11EF4026F00E07829 /* Main.storyboard */; };
+		CEDE10E51EF4026F00E07829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE10E41EF4026F00E07829 /* Assets.xcassets */; };
+		CEDE10E81EF4026F00E07829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE10E61EF4026F00E07829 /* LaunchScreen.storyboard */; };
+		CEDE10F31EF4026F00E07829 /* SwitchMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE10F21EF4026F00E07829 /* SwitchMediaTests.swift */; };
+		CEDE10FE1EF4026F00E07829 /* SwitchMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE10FD1EF4026F00E07829 /* SwitchMediaUITests.swift */; };
+		CEDE11161EF404CE00E07829 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11151EF404CE00E07829 /* Constants.swift */; };
+		CEDE11181EF404F500E07829 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11171EF404F500E07829 /* HomeViewController.swift */; };
+		CEDE111C1EF4071500E07829 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE111B1EF4071500E07829 /* BaseViewController.swift */; };
+		CEDE111E1EF408BC00E07829 /* ApiServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE111D1EF408BC00E07829 /* ApiServiceManager.swift */; };
+		CEDE11241EF40B5C00E07829 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11231EF40B5C00E07829 /* HomeTableViewCell.swift */; };
+		CEDE11261EF40CEF00E07829 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11251EF40CEF00E07829 /* CategoryCollectionCell.swift */; };
+		CEDE11281EF41B8000E07829 /* Categorys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11271EF41B8000E07829 /* Categorys.swift */; };
+		CEDE112A1EF41C3B00E07829 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE11291EF41C3B00E07829 /* Items.swift */; };
+		CEDE112C1EF41E8500E07829 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE112B1EF41E8500E07829 /* LoadingScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDE10EF1EF4026F00E07829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDE10D21EF4026E00E07829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDE10D91EF4026E00E07829;
+			remoteInfo = SwitchMedia;
+		};
+		CEDE10FA1EF4026F00E07829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDE10D21EF4026E00E07829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDE10D91EF4026E00E07829;
+			remoteInfo = SwitchMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E367852A9BE80C4E5F020A /* Pods-SwitchMediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMediaUITests/Pods-SwitchMediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BA75B614305A97B73AE5243 /* Pods-SwitchMediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMediaTests/Pods-SwitchMediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E22014FFBF8D0350DADE2E /* Pods_SwitchMediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchMediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58405EE2CB183BBEB9231543 /* Pods_SwitchMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3743B405344C6F686BA09E /* Pods_SwitchMediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchMediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CFF2F734151FFEF103C9AE /* Pods-SwitchMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMedia/Pods-SwitchMedia.release.xcconfig"; sourceTree = "<group>"; };
+		9CCCAFAB909897552415684B /* Pods-SwitchMediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMediaTests/Pods-SwitchMediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE0482E81EF510AE005A25DA /* CategoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryManager.swift; path = ApiServiceManager/CategoryManager.swift; sourceTree = "<group>"; };
+		CE0482EB1EF55F9F005A25DA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ViewControllers/DetailsViewController.swift; sourceTree = "<group>"; };
+		CE751FBC1EF6597F0080497C /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = ThemeManager/ThemeManager.swift; sourceTree = "<group>"; };
+		CE751FBE1EF659BC0080497C /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = ThemeManager/Theme.swift; sourceTree = "<group>"; };
+		CE751FC01EF65A2A0080497C /* ThemeDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeDefault.swift; path = ThemeManager/ThemeDefault.swift; sourceTree = "<group>"; };
+		CE751FC21EF65A690080497C /* IpadTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpadTheme.swift; path = ThemeManager/IpadTheme.swift; sourceTree = "<group>"; };
+		CE751FC41EF65AAD0080497C /* IphoneTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IphoneTheme.swift; path = ThemeManager/IphoneTheme.swift; sourceTree = "<group>"; };
+		CEDE10DA1EF4026F00E07829 /* SwitchMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE10DD1EF4026F00E07829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDE10E21EF4026F00E07829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDE10E41EF4026F00E07829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDE10E71EF4026F00E07829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDE10E91EF4026F00E07829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE10EE1EF4026F00E07829 /* SwitchMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE10F21EF4026F00E07829 /* SwitchMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchMediaTests.swift; sourceTree = "<group>"; };
+		CEDE10F41EF4026F00E07829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE10F91EF4026F00E07829 /* SwitchMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE10FD1EF4026F00E07829 /* SwitchMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchMediaUITests.swift; sourceTree = "<group>"; };
+		CEDE10FF1EF4026F00E07829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE11151EF404CE00E07829 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ObjectClasses/Constants.swift; sourceTree = "<group>"; };
+		CEDE11171EF404F500E07829 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		CEDE111B1EF4071500E07829 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ViewControllers/BaseViewController.swift; sourceTree = "<group>"; };
+		CEDE111D1EF408BC00E07829 /* ApiServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiServiceManager.swift; path = ApiServiceManager/ApiServiceManager.swift; sourceTree = "<group>"; };
+		CEDE11231EF40B5C00E07829 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewCell.swift; path = Views/HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CEDE11251EF40CEF00E07829 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCollectionCell.swift; path = Cell/CategoryCollectionCell.swift; sourceTree = "<group>"; };
+		CEDE11271EF41B8000E07829 /* Categorys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Categorys.swift; path = ObjectClasses/Categorys.swift; sourceTree = "<group>"; };
+		CEDE11291EF41C3B00E07829 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Items.swift; path = ObjectClasses/Items.swift; sourceTree = "<group>"; };
+		CEDE112B1EF41E8500E07829 /* LoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		EBB5736F6460007908E2467F /* Pods-SwitchMediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMediaUITests/Pods-SwitchMediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F71FBA03163A20E19F0436B5 /* Pods-SwitchMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwitchMedia/Pods-SwitchMedia.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDE10D71EF4026E00E07829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F2EEFBD3BD7EA93CC7AD00 /* Pods_SwitchMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10EB1EF4026F00E07829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7935DD875E77722D02F3B5 /* Pods_SwitchMediaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10F61EF4026F00E07829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F31BCD28505A86D32E049EA /* Pods_SwitchMediaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B4327ED6E89B67C488BA57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F71FBA03163A20E19F0436B5 /* Pods-SwitchMedia.debug.xcconfig */,
+				76CFF2F734151FFEF103C9AE /* Pods-SwitchMedia.release.xcconfig */,
+				0BA75B614305A97B73AE5243 /* Pods-SwitchMediaTests.debug.xcconfig */,
+				9CCCAFAB909897552415684B /* Pods-SwitchMediaTests.release.xcconfig */,
+				EBB5736F6460007908E2467F /* Pods-SwitchMediaUITests.debug.xcconfig */,
+				01E367852A9BE80C4E5F020A /* Pods-SwitchMediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91016167FCBFA84BF035D11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58405EE2CB183BBEB9231543 /* Pods_SwitchMedia.framework */,
+				34E22014FFBF8D0350DADE2E /* Pods_SwitchMediaTests.framework */,
+				5A3743B405344C6F686BA09E /* Pods_SwitchMediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0482ED1EF5600A005A25DA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE11251EF40CEF00E07829 /* CategoryCollectionCell.swift */,
+				CEDE11231EF40B5C00E07829 /* HomeTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CE751FBB1EF659600080497C /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE751FBC1EF6597F0080497C /* ThemeManager.swift */,
+				CE751FBE1EF659BC0080497C /* Theme.swift */,
+				CE751FC01EF65A2A0080497C /* ThemeDefault.swift */,
+				CE751FC21EF65A690080497C /* IpadTheme.swift */,
+				CE751FC41EF65AAD0080497C /* IphoneTheme.swift */,
+			);
+			name = ThemeManager;
+			sourceTree = "<group>";
+		};
+		CEDE10D11EF4026E00E07829 = {
+			isa = PBXGroup;
+			children = (
+				CEDE10DC1EF4026F00E07829 /* SwitchMedia */,
+				CEDE10F11EF4026F00E07829 /* SwitchMediaTests */,
+				CEDE10FC1EF4026F00E07829 /* SwitchMediaUITests */,
+				CEDE10DB1EF4026F00E07829 /* Products */,
+				07B4327ED6E89B67C488BA57 /* Pods */,
+				91016167FCBFA84BF035D11B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDE10DB1EF4026F00E07829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10DA1EF4026F00E07829 /* SwitchMedia.app */,
+				CEDE10EE1EF4026F00E07829 /* SwitchMediaTests.xctest */,
+				CEDE10F91EF4026F00E07829 /* SwitchMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDE10DC1EF4026F00E07829 /* SwitchMedia */ = {
+			isa = PBXGroup;
+			children = (
+				CE751FBB1EF659600080497C /* ThemeManager */,
+				CE0482ED1EF5600A005A25DA /* Cells */,
+				CEDE11121EF4046C00E07829 /* Views */,
+				CEDE11101EF4045400E07829 /* ApiServicesManager */,
+				CEDE110F1EF4044200E07829 /* Object Classes */,
+				CEDE110E1EF4043B00E07829 /* ViewControllers */,
+				CEDE110C1EF4042100E07829 /* Storyboards */,
+				CEDE110B1EF4041500E07829 /* AppDelegate */,
+				CEDE110D1EF4042B00E07829 /* Resources */,
+			);
+			path = SwitchMedia;
+			sourceTree = "<group>";
+		};
+		CEDE10F11EF4026F00E07829 /* SwitchMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10F21EF4026F00E07829 /* SwitchMediaTests.swift */,
+				CEDE10F41EF4026F00E07829 /* Info.plist */,
+			);
+			path = SwitchMediaTests;
+			sourceTree = "<group>";
+		};
+		CEDE10FC1EF4026F00E07829 /* SwitchMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10FD1EF4026F00E07829 /* SwitchMediaUITests.swift */,
+				CEDE10FF1EF4026F00E07829 /* Info.plist */,
+			);
+			path = SwitchMediaUITests;
+			sourceTree = "<group>";
+		};
+		CEDE110B1EF4041500E07829 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10DD1EF4026F00E07829 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CEDE110C1EF4042100E07829 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10E11EF4026F00E07829 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CEDE110D1EF4042B00E07829 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE10E41EF4026F00E07829 /* Assets.xcassets */,
+				CEDE10E61EF4026F00E07829 /* LaunchScreen.storyboard */,
+				CEDE10E91EF4026F00E07829 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEDE110E1EF4043B00E07829 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE11171EF404F500E07829 /* HomeViewController.swift */,
+				CEDE111B1EF4071500E07829 /* BaseViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEDE110F1EF4044200E07829 /* Object Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE11291EF41C3B00E07829 /* Items.swift */,
+				CEDE11271EF41B8000E07829 /* Categorys.swift */,
+				CEDE11151EF404CE00E07829 /* Constants.swift */,
+			);
+			name = "Object Classes";
+			sourceTree = "<group>";
+		};
+		CEDE11101EF4045400E07829 /* ApiServicesManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE0482E81EF510AE005A25DA /* CategoryManager.swift */,
+				CEDE111D1EF408BC00E07829 /* ApiServiceManager.swift */,
+			);
+			name = ApiServicesManager;
+			sourceTree = "<group>";
+		};
+		CEDE11121EF4046C00E07829 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE112B1EF41E8500E07829 /* LoadingScreen.swift */,
+				CE0482EB1EF55F9F005A25DA /* DetailsViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDE10D91EF4026E00E07829 /* SwitchMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE11021EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMedia" */;
+			buildPhases = (
+				1D8477B9EBF92FC2E7999AA1 /* [CP] Check Pods Manifest.lock */,
+				CEDE10D61EF4026E00E07829 /* Sources */,
+				CEDE10D71EF4026E00E07829 /* Frameworks */,
+				CEDE10D81EF4026E00E07829 /* Resources */,
+				164381D7367658288669BBF4 /* [CP] Embed Pods Frameworks */,
+				9275B57B9131722F6D211A90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchMedia;
+			productName = SwitchMedia;
+			productReference = CEDE10DA1EF4026F00E07829 /* SwitchMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDE10ED1EF4026F00E07829 /* SwitchMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE11051EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMediaTests" */;
+			buildPhases = (
+				AC5CFD46BA5595722D52463A /* [CP] Check Pods Manifest.lock */,
+				CEDE10EA1EF4026F00E07829 /* Sources */,
+				CEDE10EB1EF4026F00E07829 /* Frameworks */,
+				CEDE10EC1EF4026F00E07829 /* Resources */,
+				1158043E6CAC2492E235AC77 /* [CP] Embed Pods Frameworks */,
+				9715F2414A4318B6784A64D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDE10F01EF4026F00E07829 /* PBXTargetDependency */,
+			);
+			name = SwitchMediaTests;
+			productName = SwitchMediaTests;
+			productReference = CEDE10EE1EF4026F00E07829 /* SwitchMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDE10F81EF4026F00E07829 /* SwitchMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE11081EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMediaUITests" */;
+			buildPhases = (
+				6EF05A5B25B1070B3BC21FDA /* [CP] Check Pods Manifest.lock */,
+				CEDE10F51EF4026F00E07829 /* Sources */,
+				CEDE10F61EF4026F00E07829 /* Frameworks */,
+				CEDE10F71EF4026F00E07829 /* Resources */,
+				129308EF8D03CE139B8037A6 /* [CP] Embed Pods Frameworks */,
+				953D40D332769A610ACB84B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDE10FB1EF4026F00E07829 /* PBXTargetDependency */,
+			);
+			name = SwitchMediaUITests;
+			productName = SwitchMediaUITests;
+			productReference = CEDE10F91EF4026F00E07829 /* SwitchMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDE10D21EF4026E00E07829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gaganpreet singh";
+				TargetAttributes = {
+					CEDE10D91EF4026E00E07829 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CEDE10ED1EF4026F00E07829 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDE10D91EF4026E00E07829;
+					};
+					CEDE10F81EF4026F00E07829 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDE10D91EF4026E00E07829;
+					};
+				};
+			};
+			buildConfigurationList = CEDE10D51EF4026E00E07829 /* Build configuration list for PBXProject "SwitchMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDE10D11EF4026E00E07829;
+			productRefGroup = CEDE10DB1EF4026F00E07829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDE10D91EF4026E00E07829 /* SwitchMedia */,
+				CEDE10ED1EF4026F00E07829 /* SwitchMediaTests */,
+				CEDE10F81EF4026F00E07829 /* SwitchMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDE10D81EF4026E00E07829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE10E81EF4026F00E07829 /* LaunchScreen.storyboard in Resources */,
+				CEDE10E51EF4026F00E07829 /* Assets.xcassets in Resources */,
+				CEDE10E31EF4026F00E07829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10EC1EF4026F00E07829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10F71EF4026F00E07829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1158043E6CAC2492E235AC77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMediaTests/Pods-SwitchMediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		129308EF8D03CE139B8037A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMediaUITests/Pods-SwitchMediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		164381D7367658288669BBF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMedia/Pods-SwitchMedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D8477B9EBF92FC2E7999AA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF05A5B25B1070B3BC21FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9275B57B9131722F6D211A90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMedia/Pods-SwitchMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953D40D332769A610ACB84B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMediaUITests/Pods-SwitchMediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9715F2414A4318B6784A64D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitchMediaTests/Pods-SwitchMediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5CFD46BA5595722D52463A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDE10D61EF4026E00E07829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE751FC51EF65AAD0080497C /* IphoneTheme.swift in Sources */,
+				CEDE111E1EF408BC00E07829 /* ApiServiceManager.swift in Sources */,
+				CEDE112C1EF41E8500E07829 /* LoadingScreen.swift in Sources */,
+				CEDE11261EF40CEF00E07829 /* CategoryCollectionCell.swift in Sources */,
+				CEDE111C1EF4071500E07829 /* BaseViewController.swift in Sources */,
+				CEDE11241EF40B5C00E07829 /* HomeTableViewCell.swift in Sources */,
+				CE751FC31EF65A690080497C /* IpadTheme.swift in Sources */,
+				CE751FC11EF65A2A0080497C /* ThemeDefault.swift in Sources */,
+				CEDE10DE1EF4026F00E07829 /* AppDelegate.swift in Sources */,
+				CEDE11281EF41B8000E07829 /* Categorys.swift in Sources */,
+				CEDE112A1EF41C3B00E07829 /* Items.swift in Sources */,
+				CE0482E91EF510AE005A25DA /* CategoryManager.swift in Sources */,
+				CE751FBD1EF6597F0080497C /* ThemeManager.swift in Sources */,
+				CEDE11161EF404CE00E07829 /* Constants.swift in Sources */,
+				CE751FBF1EF659BC0080497C /* Theme.swift in Sources */,
+				CE0482EC1EF55F9F005A25DA /* DetailsViewController.swift in Sources */,
+				CEDE11181EF404F500E07829 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10EA1EF4026F00E07829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE10F31EF4026F00E07829 /* SwitchMediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE10F51EF4026F00E07829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE10FE1EF4026F00E07829 /* SwitchMediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDE10F01EF4026F00E07829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDE10D91EF4026E00E07829 /* SwitchMedia */;
+			targetProxy = CEDE10EF1EF4026F00E07829 /* PBXContainerItemProxy */;
+		};
+		CEDE10FB1EF4026F00E07829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDE10D91EF4026E00E07829 /* SwitchMedia */;
+			targetProxy = CEDE10FA1EF4026F00E07829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDE10E11EF4026F00E07829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE10E21EF4026F00E07829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDE10E61EF4026F00E07829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE10E71EF4026F00E07829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDE11001EF4026F00E07829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDE11011EF4026F00E07829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDE11031EF4026F00E07829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71FBA03163A20E19F0436B5 /* Pods-SwitchMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEDE11041EF4026F00E07829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CFF2F734151FFEF103C9AE /* Pods-SwitchMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEDE11061EF4026F00E07829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA75B614305A97B73AE5243 /* Pods-SwitchMediaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchMedia.app/SwitchMedia";
+			};
+			name = Debug;
+		};
+		CEDE11071EF4026F00E07829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCCAFAB909897552415684B /* Pods-SwitchMediaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchMedia.app/SwitchMedia";
+			};
+			name = Release;
+		};
+		CEDE11091EF4026F00E07829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB5736F6460007908E2467F /* Pods-SwitchMediaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwitchMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwitchMedia;
+			};
+			name = Debug;
+		};
+		CEDE110A1EF4026F00E07829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E367852A9BE80C4E5F020A /* Pods-SwitchMediaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwitchMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rssb.SwitchMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwitchMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDE10D51EF4026E00E07829 /* Build configuration list for PBXProject "SwitchMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE11001EF4026F00E07829 /* Debug */,
+				CEDE11011EF4026F00E07829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDE11021EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE11031EF4026F00E07829 /* Debug */,
+				CEDE11041EF4026F00E07829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDE11051EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE11061EF4026F00E07829 /* Debug */,
+				CEDE11071EF4026F00E07829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDE11081EF4026F00E07829 /* Build configuration list for PBXNativeTarget "SwitchMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE11091EF4026F00E07829 /* Debug */,
+				CEDE110A1EF4026F00E07829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDE10D21EF4026E00E07829 /* Project object */;
+}

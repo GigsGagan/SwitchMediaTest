@@ -1,0 +1,30 @@
+PODS:
+  - ObjectMapper (2.2.6)
+  - PromiseKit (4.2.0):
+    - PromiseKit/Foundation (= 4.2.0)
+    - PromiseKit/QuartzCore (= 4.2.0)
+    - PromiseKit/UIKit (= 4.2.0)
+  - PromiseKit/CorePromise (4.2.0)
+  - PromiseKit/Foundation (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.0):
+    - PromiseKit/CorePromise
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - ObjectMapper (~> 2.2)
+  - PromiseKit (~> 4.0)
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  PromiseKit: 08dfb783c161ddcd95b7912421f14c5113fd8318
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 7e2cad381b780b10a7ef061d282488fe25d15594
+
+COCOAPODS: 1.2.0
